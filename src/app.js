@@ -40,3 +40,9 @@ function studentScholarship(students) {
     }
     return studentScholarship
 }
+
+//Part 3
+function SetDarkTheme() {
+    const DarkTheme = document.querySelector(".light-theme")
+    DarkTheme.classList.toggle("dark-theme")
+}
